@@ -1,0 +1,71 @@
+.kop-w{
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif; 
+  margin: 0px;
+}
+
+.kop-z{
+  color: #313131;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0px;
+}
+
+.kopje-w{
+  color: #ffffff;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0px;
+}
+
+.kopje-z{
+  color: #313131;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0px;
+}
+
+.broodtekst-w{
+  color: #ffffff;
+  font-weight: 200;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0px;
+}
+
+.broodtekst-z{
+  color: #313131;
+  font-weight: 200;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0px;
+}
+
+a {
+  color: #313131;
+}
+
+p{
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 200;
+  margin: 0px;
+  color: #313131;
+}
+
+
+/*                      Navigatie                        */
+.navbar-light .navbar-nav .nav-link {
+  color: #989f9f;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #313131;
+}
+
+
+/*                        Header                          */
+.container-fluid{
+  padding: 0px;
+}
