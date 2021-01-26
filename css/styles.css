@@ -125,3 +125,29 @@ p{
   bottom: 0;
   left: 0;
 }
+
+
+/*                        recent work                       */
+#recent_work{
+  margin: 200px 0px;
+}
+
+.port{
+  margin: 200px 0;
+}
+
+
+/*                        contact                           */
+#contact{
+  margin: 200px 0px;
+}
+
+.contact-info{
+  margin: 100px 0;
+}
+
+
+/*                        footer                             */
+#footer{
+  margin: 200px 0px;
+}
