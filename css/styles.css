@@ -46,6 +46,11 @@ a {
   color: #313131;
 }
 
+a:hover {
+  color: #989f9f;
+  text-decoration: none;
+}
+
 p{
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 200;
@@ -64,10 +69,15 @@ p{
   color: #313131;
 }
 
+.bg-light{
+  background-color: #ffffff!important;
+}
+
+
 
 /*                        Header                          */
 #header{
-  height: 1080px;
+  margin-bottom: 200px;
 }
 
 .container-fluid{
@@ -77,10 +87,8 @@ p{
 .img-fluid{
   z-index: -10;
   position: absolute;
-  margin-top: -60px;
-  width: 100%;
-  height: auto;
-  background-size: cover;
+  height: 100vh;
+  width: fit-content;
 }
 
 .typing{
@@ -100,6 +108,7 @@ p{
 /*                        About                             */
 #about{
   margin: 200px 0px;
+  padding-top: 200px;
 }
 
 
@@ -134,6 +143,19 @@ p{
 
 .port{
   margin: 200px 0;
+}
+
+.workimg{
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.uberimg{
+  max-width: 300px;
+  width: auto;
+  height: 70vh;
+  margin-bottom: 50px;
 }
 
 
