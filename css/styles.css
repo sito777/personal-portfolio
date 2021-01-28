@@ -89,13 +89,15 @@ p{
   position: absolute;
   height: 100vh;
   width: fit-content;
+  object-fit: cover;
+  opacity: 100%;
 }
 
 .typing{
   padding-top: 15%;
 }
 
-.title{ /*komt voor voor elke groete titel op de pagina*/
+.title{ /*komt voor voor elke grote titel op de pagina*/
   color: #313131;
   font-size: 100px;
   font-weight: 700;
@@ -107,8 +109,7 @@ p{
 
 /*                        About                             */
 #about{
-  margin: 200px 0px;
-  padding-top: 200px;
+  margin-top: 570px;
 }
 
 
@@ -173,3 +174,94 @@ p{
 #footer{
   margin: 200px 0px;
 }
+
+
+/*                        WEvolution                          */
+.WEvolution-header{
+  margin-top: 100px!important;
+}
+
+.space{
+  margin-bottom: 200px;
+}
+
+.WEWE{
+  position: inherit!important;
+  width: 100%;
+  height: auto;
+}
+
+.imgWE{
+  align-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.min{
+  margin-top: -150px;
+}
+
+/*                        media                               */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  .title{
+    font-size: 35px;
+    margin: -20px 0px;
+  }
+  .typing{
+    padding-top: 60%;
+  }
+  .kopje-z{
+    margin-top: 30px;
+  }
+  #about{
+    margin-top: 600px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .title{
+    font-size: 65px;
+  }
+  .typing{
+    padding-top: 35%;
+  }
+  .kopje-z{
+    margin-top: 30px;
+  }
+  #about{
+    margin-top: 700px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  #about{
+    margin-top: 770px;
+  }
+  .typing{
+    padding-top: 30%;
+  }
+  .title{
+    font-size: 65px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #about{
+    margin-top: 600px;
+  }
+  .typing{
+    padding-top: 25%;
+  }
+  .title{
+    font-size: 65px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+ }

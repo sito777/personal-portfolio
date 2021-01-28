@@ -1,4 +1,4 @@
-const texts = ['problem solver', 'optimizer', 'developer']
+const texts = ['    problem solver', 'optimizer', 'developer']
 let count = 0;
 let index = 0;
 let currentText = '';
@@ -21,3 +21,5 @@ let letter = '';
     setTimeout(type,200)
 
 }());
+
+
